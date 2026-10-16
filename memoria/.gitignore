@@ -1,0 +1,7 @@
+node_modules/
+dist/
+*.log
+
+# Datos generados por el Laboratorio 2 (pueden pesar ~1GB)
+big.csv
+final.txt

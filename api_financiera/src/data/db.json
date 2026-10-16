@@ -1,0 +1,54 @@
+{
+  "creditCards": [
+    {
+      "id": "card-001",
+      "userId": "user-001",
+      "brand": "VISA",
+      "last4": "4242",
+      "cardHolder": "David Landaverde",
+      "expiration": "12/27",
+      "status": "active",
+      "cardLimit": 50000
+    },
+    {
+      "id": "card-002",
+      "userId": "user-001",
+      "brand": "MASTERCARD",
+      "last4": "5555",
+      "cardHolder": "David Landaverde",
+      "expiration": "08/26",
+      "status": "blocked",
+      "cardLimit": 20000
+    },
+    {
+      "id": "card-003",
+      "userId": "user-001",
+      "brand": "AMEX",
+      "last4": "0005",
+      "cardHolder": "David Landaverde",
+      "expiration": "03/28",
+      "status": "active",
+      "cardLimit": 100000
+    },
+    {
+      "id": "card-004",
+      "userId": "user-002",
+      "brand": "VISA",
+      "last4": "1111",
+      "cardHolder": "Ana Gomez",
+      "expiration": "05/27",
+      "status": "active",
+      "cardLimit": 30000
+    },
+    {
+      "id": "card-005",
+      "userId": "user-002",
+      "brand": "VISA",
+      "last4": "9999",
+      "cardHolder": "Ana Gomez",
+      "expiration": "01/25",
+      "status": "expired",
+      "cardLimit": 15000
+    }
+  ]
+}

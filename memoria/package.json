@@ -1,0 +1,21 @@
+{
+  "name": "memoria",
+  "version": "1.0.0",
+  "description": "Laboratorio 2: Estres de Memoria - pipeline de streams con contrapresion en Node.js + TypeScript",
+  "main": "dist/pipeline.js",
+  "scripts": {
+    "seed": "tsx src/seed.ts",
+    "pipeline": "tsx src/pipeline.ts",
+    "build": "tsc",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}

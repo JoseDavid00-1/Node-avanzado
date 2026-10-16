@@ -1,0 +1,23 @@
+{
+  "name": "capa-de-red",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "node1": "tsx node-server.ts 3001",
+    "node2": "tsx node-server.ts 3002",
+    "node3": "tsx node-server.ts 3003",
+    "balancer": "tsx balancer.ts",
+    "test": "tsx test.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
